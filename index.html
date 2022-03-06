@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/external-bearicons-flat-bearicons/64/000000/external-Love-valentine-love-bearicons-flat-bearicons.png">
+    <title>Anh Yêu Em</title>
+    <link type="text/css" rel="stylesheet" href="./renxi/default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./renxi/jquery.min.js"></script>
+    <script type="text/javascript" src="./renxi/jscex.min.js"></script>
+    <script type="text/javascript" src="./renxi/jscex-parser.js"></script>
+    <script type="text/javascript" src="./renxi/jscex-jit.js"></script>
+    <script type="text/javascript" src="./renxi/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./renxi/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./renxi/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./renxi/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./renxi/love.js" charset="utf-8"></script>
+    <style type="text/css">
+        <!-- .STYLE1 {
+            color: #666666
+        }
+        
+        -->
+    </style>
+</head>
+
+<body>
+    <audio controls autoplay id="phatNhac">
+        <source src="music/I-Do-911.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="main">
+        <div id="error">Trình duyệt của bạn không được hỗ trợ. Để được hỗ trợ liên hệ hmuana18122@cusc.ctu.edu.vn. Hoặc sử dụng (<a href="http://www.google.cn/chrome">Chrome</a>) và (<a href="http://firefox.com/download/">Firefox</a>)</div>
+        <div id="wrap">
+            <div class="">
+                <div class="">
+                    <div id="text">
+                        <div id="code">
+                            <font color="#0000FF"><span class="say">Chào em, người anh từng thương</span><br>
+                                <span class="say"> </span><br>
+                                <span class="say">Em từng là người con gái enh yêu nhất cuộc đời này :💏.</span><br>
+                                <span class="say">Luon muốn danh tất cả mọi thứ tốt đẹp nhất cho em 🤗,... </span><br>
+                                <span class="say">Nhưng có lẽ bấy nhiêu thì chưa đủ đối với em !</span><br>
+                                <span class="say">Dù sao đi nữa thì anh vẫn luôn chân quý tình cảm bấy lâu của chúng ta 💕</span><br>
+                                <span class="say">Trên hết anh cảm ơn về tất cả mọi thứ em mang đến cho anh.</span><br>
+                                <span class="say">..."Chúc em bên tình mới mãi hạnh phúc"</span><br>
+                                <span class="say">Hãy nhớ ràng anh luôn chúc em hạnh phúc dù không phải anh !! </span><br>
+                                <span class="say"> </span><br>
+                                <span class="say"><span class="space"></span> -- Người em từng thương 💖 --</span>
+                            </font>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <br/>
+                    <br/>
+                    <br/> ssadas
+                </div>
+            </div>
+            <div id="clock-box">
+                <span class="STYLE1"></span>
+                <font color="#FF0000">Một Thời Đã Từng</font>
+                <span class="STYLE1">Yêu... 11/02/2015 - 06/03/2022.</span>
+                <div id="clock"></div>
+            </div>
+            <canvas id="canvas" width="1100" height="680">dfdsfds</canvas>
+        </div>
+
+    </div>
+
+    <script>
+    </script>
+
+    <script>
+        (function() {
+            var canvas = $('#canvas');
+
+            if (!canvas[0].getContext) {
+                $("#error").show();
+                return false;
+            }
+
+            var width = canvas.width();
+            var height = canvas.height();
+            canvas.attr("width", width);
+            canvas.attr("height", height);
+            var opts = {
+                seed: {
+                    x: width / 2 - 20,
+                    color: "rgb(190, 26, 37)",
+                    scale: 2
+                },
+                branch: [
+                    [535, 680, 570, 250, 500, 200, 30, 100, [
+                        [540, 500, 455, 417, 340, 400, 13, 100, [
+                            [450, 435, 434, 430, 394, 395, 2, 40]
+                        ]],
+                        [550, 445, 600, 356, 680, 345, 12, 100, [
+                            [578, 400, 648, 409, 661, 426, 3, 80]
+                        ]],
+                        [539, 281, 537, 248, 534, 217, 3, 40],
+                        [546, 397, 413, 247, 328, 244, 9, 80, [
+                            [427, 286, 383, 253, 371, 205, 2, 40],
+                            [498, 345, 435, 315, 395, 330, 4, 60]
+                        ]],
+                        [546, 357, 608, 252, 678, 221, 6, 100, [
+                            [590, 293, 646, 277, 648, 271, 2, 80]
+                        ]]
+                    ]]
+                ],
+                bloom: {
+                    num: 700,
+                    width: 1080,
+                    height: 650,
+                },
+                footer: {
+                    width: 1200,
+                    height: 5,
+                    speed: 10,
+                }
+            }
+
+            var tree = new Tree(canvas[0], width, height, opts);
+            var seed = tree.seed;
+            var foot = tree.footer;
+            var hold = 1;
+
+            canvas.click(function(e) {
+                var offset = canvas.offset(),
+                    x, y;
+                x = e.pageX - offset.left;
+                y = e.pageY - offset.top;
+                if (seed.hover(x, y)) {
+                    hold = 0;
+                    canvas.unbind("click");
+                    canvas.unbind("mousemove");
+                    canvas.removeClass('hand');
+                }
+            }).mousemove(function(e) {
+                var offset = canvas.offset(),
+                    x, y;
+                x = e.pageX - offset.left;
+                y = e.pageY - offset.top;
+                canvas.toggleClass('hand', seed.hover(x, y));
+            });
+
+            var seedAnimate = eval(Jscex.compile("async", function() {
+                seed.draw();
+                while (hold) {
+                    $await(Jscex.Async.sleep(10));
+                }
+                while (seed.canScale()) {
+                    seed.scale(0.95);
+                    $await(Jscex.Async.sleep(10));
+                }
+                while (seed.canMove()) {
+                    seed.move(0, 2);
+                    foot.draw();
+                    $await(Jscex.Async.sleep(10));
+                }
+            }));
+
+            var growAnimate = eval(Jscex.compile("async", function() {
+                do {
+                    tree.grow();
+                    $await(Jscex.Async.sleep(10));
+                } while (tree.canGrow());
+            }));
+
+            var flowAnimate = eval(Jscex.compile("async", function() {
+                do {
+                    tree.flower(2);
+                    $await(Jscex.Async.sleep(10));
+                } while (tree.canFlower());
+            }));
+
+            var moveAnimate = eval(Jscex.compile("async", function() {
+                tree.snapshot("p1", 240, 0, 610, 680);
+                while (tree.move("p1", 500, 0)) {
+                    foot.draw();
+                    $await(Jscex.Async.sleep(10));
+                }
+                foot.draw();
+                tree.snapshot("p2", 500, 0, 610, 680);
+
+                //canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+                //canvas.css("background", "#ffe");
+                //$await(Jscex.Async.sleep(300));
+                //canvas.css("background", "none");
+            }));
+
+            var jumpAnimate = eval(Jscex.compile("async", function() {
+                var ctx = tree.ctx;
+                while (true) {
+                    tree.ctx.clearRect(0, 0, width, height);
+                    tree.jump();
+                    foot.draw();
+                    $await(Jscex.Async.sleep(25));
+                }
+            }));
+
+            var textAnimate = eval(Jscex.compile("async", function() {
+                var together = new Date();
+                together.setFullYear(2015, 02, 11);
+                together.setHours(0);
+                together.setMinutes(0);
+                together.setSeconds(0);
+                together.setMilliseconds(0);
+
+                $("#code").show().typewriter();
+                $("#clock-box").fadeIn(500);
+                while (true) {
+                    timeElapse(together);
+                    $await(Jscex.Async.sleep(1000));
+                }
+            }));
+
+            var runAsync = eval(Jscex.compile("async", function() {
+                $await(seedAnimate());
+                $await(growAnimate());
+                $await(flowAnimate());
+                $await(moveAnimate());
+
+                textAnimate().start();
+
+                $await(jumpAnimate());
+            }));
+
+            runAsync().start();
+        })();
+    </script>
+    <!-- <div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+        <p>Contact: <a href="https://www.facebook.com/profile.php?id=100030949838277" target="_blank">Huynh Minh
+                Tuan</a></p>
+    </div> -->
+</body>
+
+</html>
